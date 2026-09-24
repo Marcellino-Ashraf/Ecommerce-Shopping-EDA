@@ -1,2 +1,5 @@
 # ignore the .env file, which contains sensitive environment variables
 .env
+
+# Ignore the EDA steps file
+EDA steps.ipynb
