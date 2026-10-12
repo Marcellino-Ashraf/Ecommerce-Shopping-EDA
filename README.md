@@ -1,5 +1,7 @@
 # Shopping Cart EDA Project
 
+**Live demo:** https://ecommerce-shopping-eda-klwya92pj9yhf3vrh4kupn.streamlit.app
+
 A multi-page Streamlit application for exploring and reporting on e-commerce shopping cart data: customers, products, orders, and sales. The app combines exploratory data analysis (EDA), marketing and KPI dashboards, and a voice-driven data assistant powered by the Google Gemini API.
 
 ## Features
