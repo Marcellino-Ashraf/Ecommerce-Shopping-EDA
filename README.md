@@ -14,6 +14,19 @@ A multi-page Streamlit application for exploring and reporting on e-commerce sho
 | **Marketing Report** | Sales and marketing insights broken down by time period, geography, and product category. |
 | **Voice Interface** | Conversational assistant that answers questions about the dataset using natural speech, built on the Gemini API. |
 
+## Findings
+
+Snapshot of the live app and the key numbers it surfaces from the dataset (Jan 2021 – Oct 2021):
+
+- **616** unique customers placed **993** orders, for **$1,031,800** in total revenue and an average order value of **$1,039.07**.
+- Order volume is fairly evenly spread across Australian states, led by South Australia and Queensland (140 orders each), with the rest of the states/territories in the 100–130 range.
+- Daily revenue is highly variable (spikes up to ~$10k vs. a baseline of $2k–$4k), while monthly revenue trends upward over the year with peaks in March and July.
+- The flattened dataset joins all four tables (customer, order, product, sale) into one row per sale line item, which is what powers the Marketing Report's filters (state, date range, product count).
+
+| Home | Dashboard KPIs | Marketing Report |
+|---|---|---|
+| ![Home page](assets/home.jpg) | ![Dashboard KPIs page](assets/dashboard_kpis.jpg) | ![Marketing Report page](assets/marketing_report.jpg) |
+
 ## Tech Stack
 
 - **Framework:** [Streamlit](https://streamlit.io/)
